@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liste des rôles</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Nom du rôle</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Invité</td>
+                <td>
+                    <ul>
+                        <li>Un invité peut s'identifier</li>
+                        <li>Après identification, il est redirigé vers la page de son profil</li>
+                        <li>Un invité peut créer un compte s'il dispose du code d’inscription</li>
+                        <li>Après la création, il est redirigé vers le formulaire d’identification</li>
+                        <li>Un usager peut se déconnecter de l'application</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>Usager</td>
+                <td>
+                    <ul>
+                        <li>Un usager peut consulter son profil</li>
+                        <li>Un usager peut modifier les informations de son propre profil sauf son rôle</li>
+                        <li>Un usager peut parcourir la liste des utilisateurs enregistrés</li>
+                        <li>La liste des utilisateurs affiche : Nom, Prénom, Intitulé du rôle</li>
+                        <li>Un usager ne peut pas consulter les fiches individuelles des autres utilisateurs</li>
+                        <li>Un usager peut se déconnecter de l'application</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>Encadrant</td>
+                <td>
+                    <ul>
+                        <li>Un encadrant est un usager avec privilèges accrus</li>
+                        <li>Un encadrant peut consulter les profils individuels des usagers et encadrants</li>
+                        <li>Un encadrant peut modifier les informations des usagers sauf leur rôle et leur mot de passe
+                        </li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>Administrateur</td>
+                <td>
+                    <ul>
+                        <li>Un administrateur est un encadrant avec privilèges accrus</li>
+                        <li>Un administrateur peut consulter le profil individuel de n'importe quel utilisateur</li>
+                        <li>Un administrateur peut modifier toutes les informations d'un utilisateur enregistré</li>
+                        <li>Un administrateur peut ajouter un utilisateur sans code d'inscription</li>
+                        <li>Un administrateur peut supprimer un utilisateur</li>
+                    </ul>
+                </td>
+            </tr>
+
+        </tbody>
+    </table>
+</body>
+
+</html>
