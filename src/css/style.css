@@ -5,3 +5,89 @@
     --color4: #354F52;
     --color5: #2F3E46;
 }
+
+*{
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%
+}
+
+body {
+    font-size: 1.6rem;
+    margin : 0 auto;
+    color: var(--color5);
+    width: 150rem;
+}
+
+header > img {
+    position: absolute;
+    top: 2.5rem;
+    width : 25rem;
+}
+
+h1 {
+    text-align: center;
+    font-size: 5rem;
+    margin: 0;
+    padding: 4rem;
+}
+
+footer {
+    text-align: center;
+    padding: 2rem;
+}
+
+header, footer {
+    background-color: var(--color2);
+}
+
+table, th, td {
+    border : .1rem solid var(--color5);
+    border-collapse: collapse;
+    padding: 0.8rem;
+}
+
+table {
+    margin: 2rem auto;
+}
+
+form {
+    margin: 0;
+    padding: 2rem;
+}
+
+main{
+    background-color: var(--color1);
+    padding: 2rem;
+}
+
+.partieProfil {
+    display: flex;
+    justify-content: center;
+}
+
+img[alt="photo de l'utilisateur"] {
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    margin: auto 0;
+}
+
+#surMoi, #details {
+    width: 30%;
+    padding: 7rem;
+}
+
+#surMoi {
+    padding-top: 20rem;
+}
+
+#details {
+    padding-left: 20rem;
+}
+
+input, button {
+    padding: 0.5rem;
+}
