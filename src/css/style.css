@@ -90,4 +90,19 @@ img[alt="photo de l'utilisateur"] {
 
 input, button {
     padding: 0.5rem;
+    margin : 0.4rem;
 }
+
+fieldset {
+    display : flex;
+    flex-wrap: wrap;
+    width: 60%;
+    margin: 0 auto;
+}
+
+label, input {
+    flex-basis: 40%;
+}
+ button {
+    
+ }
