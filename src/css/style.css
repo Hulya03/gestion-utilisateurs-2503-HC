@@ -21,7 +21,7 @@ body {
     width: 150rem;
 }
 
-header > img {
+header > a > img{
     position: absolute;
     top: 2.5rem;
     width : 25rem;
@@ -81,7 +81,8 @@ img[alt="photo de l'utilisateur"] {
 }
 
 #surMoi {
-    padding-top: 20rem;
+    padding-top: 15rem;
+    text-align: justify;
 }
 
 #details {
@@ -101,8 +102,27 @@ fieldset {
 }
 
 label, input {
-    flex-basis: 40%;
+    flex-basis: 38%;
 }
- button {
-    
- }
+
+.btn {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin : 0 auto;
+    width : 20rem;
+}
+
+button[type="submit"] {
+    margin-top: 3rem;
+}
+
+.titre {
+    text-decoration-line: underline;
+    font-size: larger;
+    font-weight: 900;
+}
+
+.gras {
+    font-weight: 900;
+}
