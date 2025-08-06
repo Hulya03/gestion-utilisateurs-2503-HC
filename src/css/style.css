@@ -126,3 +126,24 @@ button[type="submit"] {
 .gras {
     font-weight: 900;
 }
+
+::placeholder {
+    font-style: italic;
+}
+
+.filDAriane {
+    padding: 0 0.5rem;
+}
+
+.filDAriane ol {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 2rem;
+}
+
+.filDAriane li:not(:last-child)::after {
+    display: inline-block;
+    padding: 0 1rem;
+    content: "→";
+}
