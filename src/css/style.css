@@ -99,6 +99,7 @@ fieldset {
     flex-wrap: wrap;
     width: 60%;
     margin: 0 auto;
+    border-radius: 1rem;
 }
 
 label, input {
@@ -116,6 +117,7 @@ label, input {
 button[type="submit"] {
     margin-top: 3rem;
 }
+
 
 .titre {
     text-decoration-line: underline;
@@ -146,4 +148,10 @@ button[type="submit"] {
     display: inline-block;
     padding: 0 1rem;
     content: "→";
+}
+
+button:hover {
+    background-color: var(--color2);
+    cursor:pointer;
+    color: var(--color1);
 }
