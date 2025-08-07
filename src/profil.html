@@ -26,7 +26,35 @@
             </ol>
         </nav>
     </header>
-    <main class="partieProfil">
+
+    <main id="infos">
+        <section >
+            <form action="#">
+                <fieldset>
+                    <label for="nom">Nom</label>
+                    <input class="detailProfil" type="text" id="nom" required placeholder="nom" value="Doe">
+
+                    <label for="prenom">Prénom</label>
+                    <input class="detailProfil" type="text" id="prenom" value="John">
+
+                    <label for="email">E-mail</label>
+                    <input class="detailProfil" type="mail" id="mail" value="johndoe@gmail.com">
+                     
+                    <label for="role">Rôle</label>
+                    <input class="detailProfil" type="text" id="role" value="Encadrant">
+                </fieldset>
+                
+            </form>
+        </section>
+        <section id="photo">
+            <img src="./img/photo-profil.avif" alt="photo de profil">
+            <button id="btnChangerPhoto">Changer photo de profil</button>
+        </section>
+    </main>
+
+
+
+    <!-- <main class="partieProfil">
         <section id="surMoi">
             <p class="titre">
                 Sur moi :
@@ -51,7 +79,7 @@
             <p class="gras">Ville :</p>
             <p>Mulhouse</p>
         </section>
-    </main>
+    </main> -->
     <footer>
         <p>
             © Copyright Hülya CETIN

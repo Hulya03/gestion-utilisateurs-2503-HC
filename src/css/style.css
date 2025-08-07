@@ -68,10 +68,10 @@ main{
     justify-content: center;
 }
 
-img[alt="photo de l'utilisateur"] {
-    width: 20%;
-    height: 20%;
-    border-radius: 50%;
+img[alt="photo de profil"] {
+    width: 30%;
+    /*height: 20%;*/
+    border-radius: 8%;
     margin: auto 0;
 }
 
@@ -154,4 +154,20 @@ button:hover {
     background-color: var(--color2);
     cursor:pointer;
     color: var(--color1);
+}
+
+#infos{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+#photo {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+#btnChangerPhoto{
+    width : 13rem;
 }
