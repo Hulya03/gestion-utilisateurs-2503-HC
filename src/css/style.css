@@ -63,30 +63,10 @@ main{
     padding: 2rem;
 }
 
-.partieProfil {
-    display: flex;
-    justify-content: center;
-}
-
 img[alt="photo de profil"] {
     width: 30%;
-    /*height: 20%;*/
     border-radius: 8%;
     margin: auto 0;
-}
-
-#surMoi, #details {
-    width: 30%;
-    padding: 7rem;
-}
-
-#surMoi {
-    padding-top: 15rem;
-    text-align: justify;
-}
-
-#details {
-    padding-left: 20rem;
 }
 
 input, button {
@@ -118,16 +98,6 @@ button[type="submit"] {
     margin-top: 3rem;
 }
 
-
-.titre {
-    text-decoration-line: underline;
-    font-size: larger;
-    font-weight: 900;
-}
-
-.gras {
-    font-weight: 900;
-}
 
 ::placeholder {
     font-style: italic;
@@ -170,4 +140,14 @@ button:hover {
 
 #btnChangerPhoto{
     width : 13rem;
+}
+
+.detailProfil {
+    border : none;
+    border-radius: .5rem;
+
+}
+
+label {
+    padding-top: .5rem;
 }
