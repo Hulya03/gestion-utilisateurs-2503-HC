@@ -1,4 +1,4 @@
-FROM mariadb:11
+FROM mariadb:11.8.3
 
 ENV MARIADV_ROOT_PASSWORD=azer
 ENV MARIADB_DATABASE=mydatabase
